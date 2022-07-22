@@ -1,0 +1,47 @@
+.anchorpane
+{
+    -fx-background-color : white;
+}
+.titre
+{
+    -fx-text-fill : #000000;
+    -fx-text-fill : #000000;
+    -fx-font-size : 50px;
+}
+
+.nom,.prenom,.annee,.formation,.commune,.sexe,.etab
+{
+    -fx-background-color : #ffffff;
+    -fx-text-fill : black;
+    -fx-border-radius : 10%;
+    -fx-font-size : 20px;
+}
+.nom:hover,.prenom:hover,.annee:hover,.formation:hover,.commune:hover,.sexe:hover,.etab:hover
+{
+    -fx-translate-y : -3px;
+    -fx-translate-y : 2px;
+    -fx-pref-height : 50px;
+    -fx-background-color : white;
+    -fx-text-fill : black;
+}
+
+.boutton
+{
+    -fx-border-color : black;
+    -fx-color :  #000000;
+    -fx-alignment: center;
+    -fx-pref-width : 80px;
+    -fx-pref-height : 15px;
+    -fx-font-size : 12px;
+}
+.boutton:hover
+{
+    -fx-background-color : #ffffff;
+    -fx-cursor : hand;
+    -fx-text-fill : black;
+.id
+
+{
+    -fx-background-color : #ffffff;
+    -fx-text-fill : #ffffff;
+}

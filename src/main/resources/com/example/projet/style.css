@@ -1,0 +1,30 @@
+.anchorpane
+{
+    -fx-background-color : lightblue;
+    -fx-border : 0px 0px 30px 30px;
+}
+.labelTitre
+{
+    -fx-text-fill : white;
+    -fx-font-size : 20px;
+}
+
+.nom,.prenom
+{
+    -fx-background-color : green;
+    -fx-text-fill : white;
+    -fx-border-radius : 10%;
+}
+
+.boutton:hover
+{
+    -fx-background-color : yellow;
+    -fx-text-fill : white;
+
+}
+.boutton
+{
+    -fx-border-color : red;
+    -fx-color : green;
+
+}

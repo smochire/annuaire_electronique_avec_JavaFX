@@ -1,0 +1,36 @@
+.boutton
+{
+    -fx-border-color : white;
+    -fx-color :  #ebf0f0;
+    -fx-alignment: center;
+    -fx-pref-width : 80px;
+    -fx-pref-height : 15px;
+    -fx-font-size : 12px;
+}
+.boutton:hover
+{
+    -fx-background-color : #000000;
+    -fx-cursor : hand;
+    -fx-text-fill : white;
+}
+.fontannu
+{
+    -fx-color :  #000000;
+    -fx-font-size : 65px;
+    -fx-font-text : Broadway;
+}
+
+.menu{
+    -fx-font-text : Arial;
+    -fx-text-color :  #ffffff;
+    -fx-pref-width : 90px;
+    -fx-pref-height : 15px;
+    -fx-font-size : 12px;
+}
+
+.menu:hover
+{
+    -fx-background-color : #ffffff  ;
+    -fx-cursor : hand;
+    -fx-text-fill : black;
+}

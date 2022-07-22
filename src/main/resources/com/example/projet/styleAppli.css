@@ -1,0 +1,30 @@
+.table
+{
+    -fx-font-size : 14px;
+}
+
+.table:hover{
+    -fx-background-color : #5ea0d6;
+    -fx-cursor : hand;
+    -fx-text-fill : white;
+}
+.boutton
+{
+    -fx-border-color : black;
+    -fx-color :  #000000;
+    -fx-alignment: center;
+    -fx-pref-width : 80px;
+    -fx-pref-height : 15px;
+    -fx-font-size : 12px;
+}
+.boutton:hover
+{
+    -fx-background-color : #ffffff;
+    -fx-cursor : hand;
+    -fx-text-fill : black;
+}
+.AnchorPane
+{
+    -fx-background-color : #ffffff;
+    -fx-font-size : 12px;
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" styleClass="anchorpane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projet.AjoutController">
+   <children>
+      <VBox layoutX="115.0" layoutY="104.0" prefHeight="425.0" prefWidth="397.0" spacing="25.0" styleClass="boxRemplir">
+         <children>
+            <TextField fx:id="nomText" promptText="Nom" styleClass="nom" />
+            <TextField fx:id="prenomText" promptText="Prénom" styleClass="prenom" />
+            <ComboBox fx:id="sexeCombo" onAction="#onClickCombo" prefHeight="31.0" prefWidth="407.0" promptText="Genre" styleClass="sexe" />
+            <TextField fx:id="formationText" promptText="Formation" styleClass="formation" />
+            <ComboBox fx:id="etabCombo" onAction="#onClickCombo" prefHeight="31.0" prefWidth="416.0" promptText="Etablissement" styleClass="etab" />
+            <TextField fx:id="communeText" promptText="Commune" styleClass="commune" />
+            <TextField fx:id="anneeText" promptText="Année" styleClass="annee" />
+         </children>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" height="5.45" radius="2.225" width="5.45" />
+         </effect>
+      </VBox>
+      <Label layoutX="195.0" layoutY="14.0" prefHeight="84.0" prefWidth="237.0" styleClass="titre" text="Nouveau" textFill="#000000f5">
+         <font>
+            <Font name="Arial" size="47.0" />
+         </font>
+      </Label>
+      <Button fx:id="EnregistrerBt" layoutX="121.0" layoutY="597.0" mnemonicParsing="false" onAction="#ajouterBt" prefHeight="50.0" prefWidth="150.0" styleClass="boutton" text="Enrégistrer">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="annulerBt" layoutX="337.0" layoutY="597.0" mnemonicParsing="false" onAction="#ajouterBt" prefHeight="50.0" prefWidth="150.0" styleClass="boutton" text="Annuler">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Label layoutX="8.0" layoutY="675.0" text="(Tous les champs sont obligatoires)" textFill="RED">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

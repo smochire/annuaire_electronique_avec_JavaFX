@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="436.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projet.PageAccueilController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="768.0" prefWidth="231.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="766.0" prefWidth="436.0" style="-fx-background-color: #101010;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="BIENVENUE DANS" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="30.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="220.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="80.0" prefWidth="389.0" text="ANNUAIRE" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="55.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="boutonConsulterPage" mnemonicParsing="false" onAction="#boutonConsulterPageAction" prefHeight="46.0" prefWidth="194.0" style="-fx-background-color: #044C84;" styleClass="boutonBleu" text="CONSULTER LA PAGE" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Button>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1.0" prefWidth="202.0" scaleShape="false" style="-fx-background-color: #ffffff;">
+                     <VBox.margin>
+                        <Insets left="188.0" top="346.0" />
+                     </VBox.margin>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <HBox layoutX="436.0" layoutY="-2.0" prefHeight="215.0" prefWidth="588.0" style="-fx-background-color: #FFFFff;">
+         <padding>
+            <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <TextArea prefHeight="175.0" prefWidth="545.0" style="-fx-background-color: #fff;" text="Les vidéos vous permettent de faire passer votre message de façon convaincante. Quand vous cliquez sur Vidéo en ligne, vous pouvez coller le code incorporé de la vidéo que vous souhaitez ajouter. Vous pouvez également taper un mot-clé pour rechercher en ligne la vidéo qui convient le mieux à votre document." wrapText="true">
+               <padding>
+                  <Insets top="45.0" />
+               </padding>
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </TextArea>
+         </children>
+      </HBox>
+      <VBox layoutX="436.0" layoutY="213.0" prefHeight="558.0" prefWidth="588.0">
+         <children>
+            <HBox prefHeight="242.0" prefWidth="327.0" style="-fx-background-color: #FFF;">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" stroke="BLACK" strokeType="INSIDE" width="250.0">
+                     <HBox.margin>
+                        <Insets left="40.0" right="10.0" top="20.0" />
+                     </HBox.margin>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" stroke="BLACK" strokeType="INSIDE" width="250.0">
+                     <HBox.margin>
+                        <Insets left="10.0" top="20.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+            <HBox prefHeight="314.0" prefWidth="588.0" style="-fx-background-color: #FFF;">
+               <padding>
+                  <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
+               </padding>
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="269.0" stroke="BLACK" strokeType="INSIDE" width="508.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <ImageView fitHeight="112.0" fitWidth="147.0" layoutX="27.0" layoutY="24.0">
+         <image>
+            <Image url="@../../../../../../image/hita.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
